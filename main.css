@@ -79,8 +79,7 @@ main a:hover, footer a:hover{
 body{
   background-color:#181818; 
   color:white;
-  margin-right:20%;
-  margin-left: 20%;
+  margin-inline: clamp(0vw, calc(30vw - 5rem), 20vw)
 }
 
 #img1{
