@@ -179,6 +179,10 @@ body{
   transform:scale(1.1)
 }
 
+#bskybutton:hover{
+  transform:scale(1.1)
+}
+
 /* homepage projects section*/
 
 #projecttable td{
