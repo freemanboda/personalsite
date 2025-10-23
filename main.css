@@ -197,3 +197,36 @@ body{
 #projecttable td:nth-child(2){
   padding-left:15px;
 }
+
+/* for grids */
+
+.grid{
+  display:grid;
+  grid-template-rows:repeat(3, 300px);
+  grid-template-columns:1fr 1fr 1fr;
+  gap:1em;
+}
+
+.item-1{
+  grid-column:span 1;
+}
+
+.item-2{
+  grid-column:span 2;
+}
+
+.item-3{
+  grid-column:span 2;
+}
+
+.item-4{
+  grid-column:span 1;
+}
+
+.item-5{
+  grid-column:span 1;
+}
+
+.item-6{
+  grid-column:span 2;
+}
